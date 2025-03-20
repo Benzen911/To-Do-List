@@ -1,0 +1,88 @@
+/* Smooth transition effect */
+body {
+    transition: background 0.3s, color 0.3s;
+    background: #FFDAB3; /* Light peach */
+    color: #574964; /* Dark purple */
+}
+
+/* Card Styling */
+.card {
+    border-radius: 15px;
+    background: white;
+    color: #574964;
+}
+
+/* List Group Items */
+.list-group-item {
+    border-radius: 10px;
+    transition: all 0.3s;
+    color: #574964;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+}
+
+/* Light Mode Buttons */
+.complete-btn {
+    background: #28a745; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.complete-btn:hover {
+    background: #218838;
+}
+
+.delete-btn {
+    background: #dc3545; /* Red */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background: #000000; /* Black */
+    color: #ebe3c3; /* Soft beige */
+}
+
+.dark-mode .card {
+    background: #1e1e1e; /* Dark gray for contrast */
+    color: white;
+}
+
+.dark-mode .btn-dark {
+    background: white;
+    color: black;
+}
+
+/* Dark Mode Buttons */
+.dark-mode .complete-btn {
+    background: #6bbf59; /* Softer green */
+    color: black;
+}
+
+.dark-mode .complete-btn:hover {
+    background: #5aa748;
+}
+
+.dark-mode .delete-btn {
+    background: #ff6b6b; /* Softer red */
+    color: black;
+}
+
+.dark-mode .delete-btn:hover {
+    background: #e55050;
+}
